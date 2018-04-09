@@ -1,0 +1,447 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .76em;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+a
+{
+    text-decoration: none;
+    color: #0054b9;
+    transition: color .15s ease-out;
+}
+
+a:hover,
+.link-big:hover,
+.tv-channel:hover,
+.navigation:hover,
+.email-settings:hover,
+.email-title:hover,
+.search-example:hover
+{
+    color: #c00;
+}
+
+.red-letter
+{
+    color: #fd0102;
+}
+
+.navigation
+{
+    position: absolute;
+    top: 23px;
+    left: 29px;
+    color: #9f9999;
+}
+
+.navigation-img
+{
+    vertical-align: middle;
+    background-image: url('img/navigation.svg');
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+.email-container
+{
+    position: absolute;
+    top: 12px;
+    right: 81px;
+}
+
+.email-settings
+{
+    vertical-align: top;
+    position: relative;
+    top: 13px;
+    right: 23px;
+}
+
+.email-window
+{
+    padding: 12px 14px;
+    width: 152px;
+    height: 45px;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.1), 0 2px 6px 0 rgba(0,0,0,.1);
+    font-weight: bolder;
+}
+
+.email-title
+{
+    font-weight: lighter;
+    margin-right: 3px;
+}
+
+.info-top-container
+{
+    grid-column-start: 2;
+    width: fit-content;
+    padding-right: 145px;
+}
+
+.banner-small-container
+{
+    display: inline-block;
+    width: 155px;
+}
+
+.banner-small
+{
+    margin: -1px -4px 12px;
+    background: url('img/banner-small.png') no-repeat;
+    height: 95px;
+}
+
+.link-big
+{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.news-container
+{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 79px;
+}
+
+.news-headline
+{
+    font-size: 1.42em;
+}
+
+.news-city
+{
+    font-size: 1.42em;
+    color: #6fa2e2;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.news-date
+{
+    font-size: 11.8px;
+    color: #9f9999;
+}
+
+.news-list
+{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.news-list li
+{
+    padding-bottom: 11px;
+}
+
+.banner-small-text
+{
+    margin-top: 10px;
+}
+
+.currency
+{
+    margin-left: -1px;
+    font-weight: bolder;
+    margin-right: 6px;
+}
+
+.currency-price
+{
+    font-size: 1.1em;
+    margin-right: 6px;
+}
+
+.currency-change
+{
+    font-size: 1.1em;
+    color: #9f9999;
+    margin-right: 12px;
+}
+
+.dots
+{
+    vertical-align: bottom;
+    background: url('img/dots.svg');
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    opacity: .2;
+}
+
+.logo
+{
+    background: url('img/yandex-logo.svg');
+    width: 140px;
+    height: 100px;
+    margin-top: -11px;
+    cursor: pointer;
+}
+
+.search-bar-container
+{
+    display: inline-block;
+}
+
+.menu-item
+{
+    margin-right: 15px;
+    font-size: 1.19em;
+}
+
+.search-container
+{
+    width: fit-content;
+    padding-right: 207px;
+}
+
+.search-bar
+{
+    border: none;
+    display: inline-block;
+    width: 609px;
+    height: 32px;
+    line-height: 36px;
+    padding: 0 30px 0 13px;
+}
+
+.search-bar:focus
+{
+    outline: none;
+}
+
+.search-bar-wrapper
+{
+    margin: 9px 2px;
+    border: 2px solid #fedb4d;
+    width: 724px;
+    height: 32px;
+    display: inline-block;
+}
+
+.search-example,
+.tv-channel
+{
+    color: #9f9999;
+    cursor: pointer;
+}
+
+.tv-channel
+{
+    margin-left: 5px;
+}
+
+.search-voice
+{
+    display: inline-block;
+    vertical-align: middle;
+    background: url('img/voice.svg');
+    width: 24px;
+    height: 24px;
+    opacity: .15;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.search-keyboard
+{
+    display: inline-block;
+    vertical-align: middle;
+    background: url('img/keyboard.svg');
+    width: 27px;
+    height: 12px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.search-button
+{
+    position: relative;
+    top: 1px;
+    margin-left: -6px;
+    padding-left: 12px;
+    width: 77px;
+    border: none;
+    background-color: #fedb4d;
+    height: 36px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search-keyboard-triangle-2
+{
+    transform: rotate(45deg);
+    width: 13px;
+    height: 13px;
+    background-color: #fedb4d;
+    cursor: pointer;
+}
+
+.search-keyboard-triangle-1
+{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    transform: scaleY(1.9);
+    margin-left: -10px;
+}
+
+.search-button:focus
+{
+    outline: none;
+}
+
+.info-bottom-container
+{
+    grid-column-start: 2;
+    width: fit-content;
+    padding-right: 25px;
+}
+
+.banner-big
+{
+    background: url('img/banner-big.png') no-repeat;
+    width: 728px;
+    height: 90px;
+    margin-bottom: 37px;
+}
+
+.section-tab
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 52px;
+}
+
+.section
+{
+    width: 245px;
+    margin-bottom: 33px;
+}
+
+.section-title
+{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.section-title-extra
+{
+    margin-left: 33px;
+}
+
+.section-list
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.section-list li
+{
+    margin-bottom: 11px;
+}
+
+.bolder
+{
+    font-weight: bolder;
+    line-height: 14px;
+}
+
+.scroll-list::-webkit-scrollbar
+{
+    display: none;
+}
+
+.hider
+{
+    background: linear-gradient(white, transparent, transparent, transparent, transparent,
+    transparent, transparent, transparent, white);
+    z-index: 1000;
+    width: 242px;
+    height: 175px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.scroll-list
+{
+    max-height: 175px;
+    overflow-y: auto;
+}
+
+.tv-title
+{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.weather
+{
+    position: absolute;
+    top: -12px;
+    background-image: url('img/weather.svg');
+    width: 36px;
+    height: 36px;
+    background-size: 36px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.traffic
+{
+    position: absolute;
+    top: -7px;
+    background: url('img/traffic.svg');
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.weather-gap
+{
+    margin-left: 1ch;
+}
+
+.tv-online
+{
+    display: inline-block;
+    background: url('img/tv-online.png');
+    width: 92px;
+    height: 25px;
+    position: absolute;
+    left: 148px;
+    top: -3px;
+    cursor: pointer;
+}
+
+.grid-wrapper
+{
+    display: grid;
+    width: fit-content;
+    margin: 81px auto 0;
+    grid-template-columns: 150px 1020px;
+    grid-template-rows: 219px 104px 109px 220px;
+}
+
+.show-more
+{
+    background: url('img/more.png');
+    display: inline-block;
+    vertical-align: bottom;
+    width: 14px;
+    height: 14px;
+    margin-top: 66px;
+    margin-right: 7px;
+    cursor: pointer;
+}
